@@ -4,11 +4,11 @@ internal partial class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Введите первое число ");
-        double num1 = Convert.ToInt32(Console.ReadLine());
+        double num1 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введите второе число ");
-        double num2 = Convert.ToInt32(Console.ReadLine());
+        double num2 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введите третье число ");
-        double num3 = Convert.ToInt32(Console.ReadLine());
+        double num3 = Convert.ToDouble(Console.ReadLine());
         if (num1 > num2)
         {
             if (num1 > num3)

@@ -3,9 +3,9 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Введите первое число ");
-        double num1 = Convert.ToInt64(Console.ReadLine());
+        double num1 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введите второе число ");
-        double num2 = Convert.ToInt64(Console.ReadLine());
+        double num2 = Convert.ToDouble(Console.ReadLine());
 
         if (num1 > num2)
         {
