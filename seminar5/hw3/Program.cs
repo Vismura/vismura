@@ -6,7 +6,6 @@
         int size = Convert.ToInt32(Console.ReadLine());
         double[] numbers = new double[size];
         FillArrayRandomNumbers(numbers);
-        Console.WriteLine("Вот наш массив: ");
         PrintArray(numbers);
         double min = int.MaxValue;
         double max = int.MinValue;
