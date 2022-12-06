@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿internal partial class Program
 {
     private static void Main(string[] args)
@@ -14,4 +15,22 @@
         }
         Console.Write("]");
     }
+=======
+﻿internal partial class Program
+{
+    private static void Main(string[] args)
+    {
+        int[] numbers = new int[8];
+        Console.Write("[");
+
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] = new Random().Next(0, 999);
+            if (i < numbers.Length - 1) Console.Write($"{numbers[i]}, ");
+
+            else Console.Write(numbers[i]);
+        }
+        Console.Write("]");
+    }
+>>>>>>> 0a7e6acc1e4ebc40cd41bf3c0adfc30777e608aa
 }
