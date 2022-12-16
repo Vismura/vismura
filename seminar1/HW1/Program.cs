@@ -3,21 +3,22 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Введите первое число ");
-        int num1 = Convert.ToInt32 (Console.ReadLine());
+        int num1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Введите второе число ");
-        int num2 = Convert.ToInt32 (Console.ReadLine());  
-
-        if (num1 > num2)
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        int max(int num1, int num2)
         {
-            Console.WriteLine(num1);
+            if (num1 > num2) return num1;
+            return num2;
         }
-        else if (num1 < num2)
+        if (num1 == num2)
         {
-            Console.WriteLine(num2);
+            Console.WriteLine("числа равны");
         }
         else
         {
-            Console.WriteLine("Оба числа равны");
+            int Max = max(num1, num2);
+            Console.WriteLine(Max);
         }
     }
 }
