@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿winternal class Program
 {
     private static void Main(string[] args)
     {
